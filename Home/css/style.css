@@ -80,19 +80,14 @@ section {
   padding-bottom: 6rem;
 }
 
-.Next {
-  padding: 15px;
-  width: 10rem;
-  background-color: aqua;
-  text-align: center;
+.main a {
   border-radius: 8px;
-  cursor: pointer;
-}
-
-.Next a {
+  text-align: center;
+  background-color: aqua;
   color: black;
+  padding: 10px 20px;
+
   font-weight: bold;
-  padding: 15px;
 }
 
 .Next a:hover {
@@ -127,10 +122,8 @@ section {
 .myGalery img {
   flex: 1;
   border-radius: 1rem;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: auto 100%;
-  transition: all 0.8s cubic-bezier(0.25, 0.4, 0.45, 1.4);
+  width: auto;
+  transition: all 2s;
 }
 
 .myGalery img:hover {
