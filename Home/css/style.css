@@ -1,0 +1,138 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+  scroll-behavior: smooth;
+}
+
+section {
+  width: 100%;
+  height: 100vh;
+  box-sizing: border-box;
+}
+
+.home-page .nama {
+  font-size: 1.5em;
+  padding: 0 15px;
+  color: black;
+}
+
+.navigasi {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #e3f4f4;
+  width: 100%;
+  height: 3.5rem;
+  box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.25);
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.navigasi ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 15px;
+}
+
+.navigasi ul a {
+  margin: 20px;
+  padding-bottom: 5px;
+  border-bottom: 1px solid rgba(255, 102, 0, 0);
+  color: black;
+}
+
+.navigasi ul a:hover {
+  color: rgb(255, 102, 0);
+  transition: all 0.4s;
+  border-bottom: 1px solid rgba(255, 102, 0, 100);
+}
+
+/* main */
+
+.main {
+  width: 50%;
+  display: inline-block;
+  align-items: center;
+  margin: 10rem 0;
+  padding: 0 0 0 15px;
+}
+
+.heading-main {
+  padding: 0 0 5px;
+}
+
+.heading-middle {
+  font-size: 1.5em;
+  padding-bottom: 1.3rem;
+}
+
+.heading-motivation {
+  font-size: 2rem;
+  padding-bottom: 1.8rem;
+}
+
+.heading-info {
+  width: 50%;
+  padding-bottom: 6rem;
+}
+
+.Next {
+  padding: 15px;
+  width: 10rem;
+  background-color: aqua;
+  text-align: center;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.Next a {
+  color: black;
+  font-weight: bold;
+  padding: 15px;
+}
+
+.Next a:hover {
+  color: rgb(255, 255, 255);
+  transition: all 0.3s;
+}
+
+/* about me */
+
+.about-me {
+  width: 100%;
+  height: 100vh;
+}
+
+.content {
+  padding: 6rem 0 0 15px;
+  display: inline-block;
+  align-items: center;
+}
+
+.isi {
+  padding: 20px 0 0 15px;
+  width: 40%;
+}
+
+.myGalery {
+  display: flex;
+  height: 20rem;
+  gap: 1.2rem;
+}
+
+.myGalery img {
+  flex: 1;
+  border-radius: 1rem;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: auto 100%;
+  transition: all 0.8s cubic-bezier(0.25, 0.4, 0.45, 1.4);
+}
+
+.myGalery img:hover {
+  flex: 5;
+}
